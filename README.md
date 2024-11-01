@@ -15,4 +15,12 @@
 
 ### Difficultés rencontrées
 
-    La faible capacité du terminal contenant
+    La faible capacité de mon terminal disposant du système linux Ubuntu rend impossible la connexion à VMware.
+    Cependant, se basant sur le code fournit par Pyvmomi, j'ai été en mesure de produire des méthodes telles que présentées dans le repertoire my_code.
+
+### Guide utilisateur
+
+    - installer python 
+    - installer pyvmomi
+    - se déplacer dans le repertoire `my_code` 
+    - excécuter le script `app.py`
