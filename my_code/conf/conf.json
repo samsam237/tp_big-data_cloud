@@ -1,0 +1,29 @@
+{
+    "vcenter": "my_vcenter_address",
+    "username": "my_username",
+    "password": "my_password",
+    "vms": [
+      {
+        "name": "my_tinyVM_1",
+        "path": "isos/tinyVM_name.ova",
+        "Guest": "Other 2.6.x Linux (32-bit)",
+        "State": "poweredOn"
+      }
+    ],
+    "clones": [
+      {
+        "name": "tinyVM_clone_1",
+        "template": "my_tinyVM_1"
+      }
+    ],
+    "create_from_scratch": [
+      {
+        "name": "my_new_VM_1",
+        "ram": 2048,
+        "disk_size": 40,
+        "Guest": "Other 2.6.x Linux (32-bit)",
+        "State": "poweredOn"
+      }
+    ]
+  }
+  
